@@ -105,6 +105,9 @@ body {
     align-items: flex-end;
     margin: 0 13px 0 0;
 }
+#light-tab1 {
+    margin-right: 6px;
+}
 
 .mountains {
     width: 100%;
@@ -117,4 +120,5 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
+    /* box-shadow: 0px -3px 5px #000; */
 }
