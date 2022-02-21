@@ -116,10 +116,6 @@ body {
     width: 102px;
     margin: 0 13px 0 0;
 }
-#light-tab1-outline {
-    height: 76px;
-    margin-right: -6px;
-}
 #light-tab2 {
     height: 76px;
     width: 89px;
@@ -134,6 +130,10 @@ body {
     height: 76px;
     width: 62px;
     margin: 0 13px 0 0;
+}
+#light-tab1-outline, #light-tab2-outline, #light-tab3-outline, #light-tab4-outline {
+    height: 76px;
+    margin-right: -6px;
 }
 
 .mountains {
