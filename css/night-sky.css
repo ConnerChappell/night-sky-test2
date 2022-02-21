@@ -10,6 +10,7 @@ body {
     align-items: center;
     font-family: 'Hind', sans-serif;
     height: 100vh;
+    max-width: 480px;
     margin: 0;
     background-color: #463535;
     color: #fff;
@@ -103,10 +104,36 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 0 13px 0 0;
+    margin: 0 0 0 0;
+    z-index: 1;
+}
+.light-tabs-container a {
+    margin: 0;
+    padding: 0;
 }
 #light-tab1 {
-    margin-right: 6px;
+    height: 76px;
+    width: 102px;
+    margin: 0 13px 0 0;
+}
+#light-tab1-outline {
+    height: 76px;
+    margin-right: -6px;
+}
+#light-tab2 {
+    height: 76px;
+    width: 89px;
+    margin: 0 13px 0 0;
+}
+#light-tab3 {
+    height: 76px;
+    width: 75px;
+    margin: 0 13px 0 0;
+}
+#light-tab4 {
+    height: 76px;
+    width: 62px;
+    margin: 0 13px 0 0;
 }
 
 .mountains {
